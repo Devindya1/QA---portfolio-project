@@ -1,0 +1,404 @@
+{
+  "id": "c31ec5e8-56d9-4a70-8a6e-1c15a79f4129",
+  "version": "3.0",
+  "name": "SauceDemo Testing Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "fc408c56-d660-42d5-806c-903f543f8511",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "f23bef3e-70ad-4829-ac6d-cc2c51a9269b",
+      "name": "TC-LOGIN-001",
+      "commands": [
+        {
+          "id": "65338e79-c049-4c54-aad2-3eeebc33fbcf",
+          "command": "open",
+          "target": "https://www.saucedemo.com/",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "css=[data-test=\"username\"]",
+          "value": "standard_user",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a15707c2-e0ba-4260-a832-e81e82fa5a09",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='user-name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=[data-test=\"password\"]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5e669105-6268-44d8-b1b1-33b7971fe0ba",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=[data-test=\"password\"]",
+          "value": "secret_sauce",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "44262729-f35d-47f7-b7d1-4010b75ffb16",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "sendKeys",
+          "target": "css=[data-test=\"password\"]",
+          "value": "${KEY_ENTER}",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a258b78a-28a2-4ff5-bd32-dd907316801d",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab807b2a-ac68-4651-ab6b-bc84215988e8",
+      "name": "TC-LOGIN-002",
+      "commands": [
+        {
+          "id": "334d4f0e-e530-4acd-a3bd-4475ddf28a3f",
+          "command": "open",
+          "target": "https://www.saucedemo.com/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=[data-test=\"username\"]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "14ad2d91-4f3d-41e8-be49-41ded727104c",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='user-name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=[data-test=\"username\"]",
+          "value": "standard_user",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "65a2de01-9d96-4c07-bcb6-2c139173a02a",
+          "targets": [
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=user-name",
+              "id"
+            ],
+            [
+              "name=user-name",
+              "name"
+            ],
+            [
+              "css=[data-test=\"username\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#user-name",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='user-name'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=[data-test=\"password\"]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "94483bf7-30bd-4f37-beaa-5e2ad2bd41a1",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "css=[data-test=\"password\"]",
+          "value": "secret_sauce1",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fb6f3911-ba23-4b78-a885-86906663d205",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "sendKeys",
+          "target": "css=[data-test=\"password\"]",
+          "value": "${KEY_ENTER}",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "714611c7-fe8c-46c2-a04e-419929c5d0d0",
+          "targets": [
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-test-id"
+            ],
+            [
+              "id=password",
+              "id"
+            ],
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=[data-test=\"password\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#password",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='login_button_container']/div/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
